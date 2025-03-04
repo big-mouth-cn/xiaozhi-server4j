@@ -3,7 +3,14 @@
 本项目为开源智能硬件项目 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 提供的后端服务。使用 小智MQTT+UDP 协议与 [TalkX](https://web.talkx.cn) 通信。因此小智硬件通过此项目连接的后台是 TalkX，而非小智官方后台。
 
 ## 特性
-- 声音复刻
+- :white_check_mark: 基于 MQTT+UDP 协议的语音聊天
+- :white_check_mark: 支持多语言语音识别和语音生成
+- :white_check_mark: 支持多个AI、多个模型、多种声音切换
+- :white_check_mark: 支持声音复刻
+
+### 开发中 :construction:
+- function_call
+- 记忆
 
 ## 快速开始
 一、【前提准备】  
@@ -40,7 +47,7 @@
 
 ## 鸣谢 :love_you_gesture:
 - 小虾智能机器人设备开源项目：[xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
-- 小智 ESP32 后端开源项目：[xiaozhi-esp32-server](ttps://github.com/xinnan-tech/xiaozhi-esp32-server)
+- 小智 ESP32 后端开源项目：[xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server)
 - 使用 [Silero-VAD](https://github.com/snakers4/silero-vad) 来检测用户的说话活动
 - 使用 [Concentus](https://github.com/lostromb/concentus) 实现 Opus 音频编码/解码
 - 使用 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) 实现语音识别
