@@ -7,10 +7,10 @@
 - :white_check_mark: 支持多语言语音识别和语音生成
 - :white_check_mark: 支持多个AI、多个模型、多种声音切换
 - :white_check_mark: 支持声音复刻
+- :white_check_mark: 支持通过大模型实现IoT能力（:bangbang: 需要支持function_call的大模型）
 
 ### 开发中 :construction:
-- function_call
-- 记忆
+- 长期记忆
 
 ## 快速开始
 一、【前提准备】  
@@ -36,7 +36,7 @@
 ### 切换模型
 点击AI，进入聊天界面，然后在输入框的左下角切换模型。
 ```
-建议选择国内模型，延迟低，模型列表会不定期更新。
+:boom: 建议选择国内模型，延迟低。模型列表不定期更新或提供测试。
 ```
 ![iShot_2025-03-03_20.45.16.png](docs%2FiShot_2025-03-03_20.45.16.png)
 
