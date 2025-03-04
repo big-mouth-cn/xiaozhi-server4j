@@ -8,7 +8,7 @@
 ## 快速开始
 一、【前提准备】  
 你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
-然后将该项目的固件刷入到设备。:point_right: [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
+然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。:point_right: [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
 
 二、【绑定设备】  
 打开 [TalkX](https://web.talkx.cn)，并登录。  
@@ -37,3 +37,12 @@
 点击AI，更多选项中选择「编辑」，可以设置模型的角色定义及其他配置。
 ![iShot_2025-03-03_20.49.59.png](docs%2FiShot_2025-03-03_20.49.59.png)
 ![iShot_2025-03-03_20.50.11.png](docs%2FiShot_2025-03-03_20.50.11.png)
+
+## 鸣谢 :love_you_gesture:
+- 小虾智能机器人设备开源项目：[xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
+- 小智 ESP32 后端开源项目：[xiaozhi-esp32-server](ttps://github.com/xinnan-tech/xiaozhi-esp32-server)
+- 使用 [Silero-VAD](https://github.com/snakers4/silero-vad) 来检测用户的说话活动
+- 使用 [Concentus](https://github.com/lostromb/concentus) 实现 Opus 音频编码/解码
+- 使用 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) 实现语音识别
+- 使用 [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)、阿里云、火山引擎提供的语音生成能力
+- 使用 通义千问、豆包、DeepSeek 等大模型实现LLM能力
