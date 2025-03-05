@@ -8,9 +8,9 @@
 - :white_check_mark: 支持多个AI、多个模型、多种声音切换
 - :white_check_mark: 支持声音复刻
 - :white_check_mark: 支持通过大模型实现IoT能力（:bangbang: 需要支持function_call的大模型）
+- :white_check_mark: 支持使用自己的大模型服务
 
 ### 开发中 :construction:
-- 自定义大模型
 - 长期记忆
 
 ## 快速开始
