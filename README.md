@@ -6,8 +6,8 @@
 - :white_check_mark: 基于 MQTT+UDP 协议的语音聊天
 - :white_check_mark: 支持多语言语音识别和语音生成
 - :white_check_mark: 支持多个AI、多个模型、多种声音切换
-- :white_check_mark: 支持声音复刻
 - :white_check_mark: 支持通过大模型实现IoT能力（:bangbang: 需要支持function_call的大模型）
+- :white_check_mark: 支持使用自己的声音进行复刻
 - :white_check_mark: 支持使用自己的大模型服务
 
 ### 开发中 :construction:
