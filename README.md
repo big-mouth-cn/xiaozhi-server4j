@@ -14,8 +14,17 @@
 
 ## 快速开始
 一、【前提准备】  
-你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
-然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。:point_right: [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
+首先，你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
+然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。  
+:point_right: 按照教程烧录固件： [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
+---
+如果是从源码编译方式有两种：  
+1. 使用 `scripts/release.py` 编译：  
+请修改源码中的 `/main/Kconfig.projbuild` 中的 `OTA_VERSION_URL`
+2. 使用 `idf.py build` 编译：  
+请修改源码中的 `/sdkconfig` 中的 `CONFIG_OTA_VERSION_URL`；或者使用 `idf.py menuconfig` > `Xiaozhi Assistant` > `OTA Version URL` > 修改后按`S`键并退出。
+
+将上述配置项修改为 `https://api.talkx.cn/xiaozhi/ota/`
 
 二、【绑定设备】  
 打开 [TalkX](https://web.talkx.cn)，并登录。  
