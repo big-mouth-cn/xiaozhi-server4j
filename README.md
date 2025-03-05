@@ -17,9 +17,10 @@
 
 #### 一、【前提准备】
 首先，你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
-然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。  
-按照教程烧录固件：:point_right: [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
+然后，下载对应的固件，提供两个下载地址： 1、[xiaozhi-server4j github release page](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) | 2、[百度网盘](https://pan.baidu.com/s/1wX78aa3Q1bP90Rea5zxJsQ?pwd=taap)。  
+最后，按照教程烧录固件：:point_right: [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
 
+---
 
 如果是从源码编译方式有两种：  
 1. 使用 `scripts/release.py` 编译：  
