@@ -13,8 +13,7 @@
 - 长期记忆
 
 ## 快速开始
-
-一、【前提准备】  
+#### 一、【前提准备】  
 首先，你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
 然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。  
 :point_right: 按照教程烧录固件： [Flash烧录固件（无IDF开发环境）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
@@ -27,35 +26,35 @@
 
 将上述配置项修改为 `https://api.talkx.cn/xiaozhi/ota/`
 
-二、【绑定设备】  
+#### 二、【绑定设备】  
 打开 [TalkX](https://web.talkx.cn)，并登录。  
 选择左侧任意 AI（甜蜜女友，也可以点击 ![fenleiorguangchangorqitatianchong.png](docs%2Ffenleiorguangchangorqitatianchong.png) 添加更多AI），选择「智体」。
 ![iShot_2025-03-03_20.35.29.png](docs%2FiShot_2025-03-03_20.35.29.png)
 点击「绑定新设备」，输入小智硬件提示的6位数字验证码，点击「确认」。
 ![iShot_2025-03-03_20.36.26.png](docs%2FiShot_2025-03-03_20.36.26.png)
-三、【开始使用】  
+#### 三、【开始使用】  
 唤醒小智，即可开始聊天对话。
 
-### 声音复刻
+## 声音复刻
 打开 TalkX，选择已绑定设备的 AI，进入「智体」，点击页面上方的「我的声音」，复刻声音。  
 ![iShot_2025-03-03_20.43.02.png](docs%2FiShot_2025-03-03_20.43.02.png)
 
 复刻成功之后，在「智体设置」页面，声音角色选择刚才复刻的声音，保存即可。
 ![iShot_2025-03-03_20.43.46.png](docs%2FiShot_2025-03-03_20.43.46.png)
 
-### 切换模型
+## 切换模型
 点击AI，进入聊天界面，然后在输入框的左下角切换模型。
 ```
 :boom: 建议选择国内模型，延迟低。模型列表不定期更新或提供测试。
 ```
 ![iShot_2025-03-03_20.45.16.png](docs%2FiShot_2025-03-03_20.45.16.png)
 
-### 模型调参
+## 模型调参
 点击AI，更多选项中选择「编辑」，可以设置模型的角色定义及其他配置。
 ![iShot_2025-03-03_20.49.59.png](docs%2FiShot_2025-03-03_20.49.59.png)
 ![iShot_2025-03-03_20.50.11.png](docs%2FiShot_2025-03-03_20.50.11.png)
 
-## 鸣谢 :love_you_gesture:
+# 鸣谢 :love_you_gesture:
 - 小虾智能机器人设备开源项目：[xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
 - 小智 ESP32 后端开源项目：[xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server)
 - 使用 [Silero-VAD](https://github.com/snakers4/silero-vad) 来检测用户的说话活动
