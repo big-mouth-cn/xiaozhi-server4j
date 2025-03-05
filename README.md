@@ -14,7 +14,7 @@
 
 ## 快速开始
 
----
+
 #### 一、【前提准备】
 首先，你需要准备一个小智AI聊天机器人设备，点击 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 查看详情。  
 然后选择 [xiaozhi-server4j 项目的固件](https://github.com/big-mouth-cn/xiaozhi-server4j/releases) 刷入到设备。  
