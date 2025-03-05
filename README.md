@@ -28,11 +28,13 @@
 2. 使用 `idf.py build` 编译：  
 请修改源码中的 `/sdkconfig` 中的 `CONFIG_OTA_VERSION_URL`；或者使用 `idf.py menuconfig` > `Xiaozhi Assistant` > `OTA Version URL` > 修改后按`S`键并退出。
 
-将上述配置项修改为 `https://api.talkx.cn/xiaozhi/ota/`
+将上述配置项的值修改为 `https://api.talkx.cn/xiaozhi/ota/`
 
 #### 二、【绑定设备】  
-打开 [TalkX](https://web.talkx.cn)，并登录。  
-选择左侧任意 AI（甜蜜女友，也可以点击 ![fenleiorguangchangorqitatianchong.png](docs%2Ffenleiorguangchangorqitatianchong.png) 添加更多AI），选择「智体」。
+设备准备好并连接网络之后，进入激活模式。这时打开 [TalkX](https://web.talkx.cn)，并登录。  
+选择左侧任意 AI 的菜单选项，点击「智体」。
+> 点击 ![fenleiorguangchangorqitatianchong.png](docs%2Ffenleiorguangchangorqitatianchong.png) 可以添加更多AI。对于聊天场景，建议选择适合对话场景的AI，如生活类、教育类等。也可以添加后编辑AI，以便适配聊天场景。  
+
 ![iShot_2025-03-03_20.35.29.png](docs%2FiShot_2025-03-03_20.35.29.png)
 点击「绑定新设备」，输入小智硬件提示的6位数字验证码，点击「确认」。
 ![iShot_2025-03-03_20.36.26.png](docs%2FiShot_2025-03-03_20.36.26.png)
@@ -44,6 +46,8 @@
 ![iShot_2025-03-03_20.43.02.png](docs%2FiShot_2025-03-03_20.43.02.png)
 
 复刻成功之后，在「智体设置」页面，声音角色选择刚才复刻的声音，保存即可。
+> 音频时长：10～20秒，不建议超过60秒。在朗读时请保持连贯，至少包含一段超过5秒的连续语音。  
+
 ![iShot_2025-03-03_20.43.46.png](docs%2FiShot_2025-03-03_20.43.46.png)
 
 ## 切换模型
