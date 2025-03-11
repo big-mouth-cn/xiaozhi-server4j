@@ -4,6 +4,8 @@
 
 本项目在开源智能硬件项目 [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) 基础上调整，并且使用 MQTT+UDP 协议与 [TalkX](https://web.talkx.cn) 通信。因此小智硬件通过此项目连接的后台是 TalkX，而非小智官方后台。
 
+> 有任何问题或建议加QQ群：953272742
+
 👉 [ESP32+SenseVoice+Qwen72B打造你的AI聊天伴侣！【bilibili】](https://www.bilibili.com/video/BV11msTenEH3/)
 
 👉 [给小智装上 DeepSeek 的聪明大脑【bilibili】](https://www.bilibili.com/video/BV1GQP6eNEFG/)
